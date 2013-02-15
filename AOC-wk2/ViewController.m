@@ -90,7 +90,7 @@
         if (publishdate != nil);
             {
                 publishdate.backgroundColor = [UIColor greenColor];
-                publishdate.text = @"October 1998";
+                publishdate.text = @"March 2001";
                 publishdate.textAlignment = NSTextAlignmentLeft;
                 publishdate.textColor = [UIColor purpleColor];
             }
@@ -137,7 +137,7 @@
     
     // Create a variable of type NSMutableString and allocate it.
     // Loop through the NSArray you created and append each of these items to your NSMutableString seperated by commas.
-    // Example: dinosaurs, jeeps, storm, giant turkeys, eating people
+    // Example: dinosaurs, jeeps, storm, giant turkeys, and eating people
     
     UILabel *listed = [[UILabel alloc] initWithFrame:CGRectMake(10.0f, 388.0f, 96.0f, 20.0f)]; // List of Items added to the parent view.
     NSMutableString *stringMute = [NSMutableString string];
